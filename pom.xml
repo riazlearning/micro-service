@@ -15,7 +15,7 @@
 	<packaging>war</packaging>
 	<description>Demo project for Spring Boot Micro service</description>
 	<properties>
-		<java.version>20</java.version>
+		<java.version>17</java.version>
 	</properties>
 	<dependencies>
 		<dependency>
