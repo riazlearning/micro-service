@@ -16,6 +16,7 @@
 	<description>Demo project for Spring Boot Micro service</description>
 	<properties>
 		<java.version>17</java.version>
+		<maven.compiler.release>17</maven.compiler.release>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -39,8 +40,9 @@
 	<build>
 		<plugins>
 			<plugin>
-				<groupId>org.springframework.boot</groupId>
-				<artifactId>spring-boot-maven-plugin</artifactId>
+				<groupId>org.apache.maven.plugins</groupId>
+	          <artifactId>maven-compiler-plugin</artifactId>
+	          <version>3.11.0</version>
 			</plugin>
 		</plugins>
 	</build>
